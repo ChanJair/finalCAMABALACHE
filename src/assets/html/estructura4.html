@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CAMBALACHE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../24042018/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/estilo2.css" />
+    <link rel="stylesheet" href="../plugin/carrusel/carrusel/example/css/slider.css"><!--este es plugin css del carrusel-->
+    <link rel="stylesheet" href="../css/preloader.css"><!--este es el css del preloader-->
+    
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../plugin/Scrollify/jquery.scrollify.js"></script><!--este es el plugin scrollify-->
+    <script src="../plugin/carrusel/carrusel/slider.min.js"></script> <!--este es el plugin js del carrusel-->
+    <script src="../js/preloader.js"></script> <!--este es el js del preloader-->
+    
+
+
+ 
+</head>
+<body>
+    <div id="fakeLoader"></div>
+
+    <div class="row d-flex justify-content-center navbar"><!--esto es el navbar-->
+        <div class="col-2 logo">
+            <a href="#nosotros"><img src="../img/111.png"></a>
+        </div>
+        <div id="ocultar" class="col-9 d-flex justify-content-end" style="display:none">
+            <a href="#slider" class="ocultarMenu">NOSOTROS</a>
+            <a href="#indicadores" class="ocultarMenu">INDICADORES</a>
+            <a href="#beneficiarios" class="ocultarMenu">BENEFICIARIOS</a>
+            <a href="#galeria" class="ocultarMenu">GALERIA</a>
+            <a href="#contacto" class="ocultarMenu">CONTACTO</a>                
+        </div>
+        <div class="col-1 cajaComando d-flex align-items-center justify-content-center">
+         <img class="comando" src="../img/hamburguesa.png">
+        </div>
+
+    </div>
+    <div class="slider scrollify" id="slider"><!--aqui inicia el carrusel-->
+        <div class="slItems">
+            <div class="slItem publico">
+                <div class="row d-flex justify-content-center titulo">¡HACEMOS FAMILIAS FELICES!</div>
+                <div class="row d-flex justify-content-center liga">
+                    <a href="https://www.youtube.com/embed/IUrIJMdJJNY?rel=0&amp;showinfo=0" target="_blanck" class="btn btn-warning boton"><i>Conocer mas</i></a>
+                </div>
+            </div>
+            <div class="slItem venta">
+                <div class="row d-flex justify-content-center titulo">GANA DINERO CON LO QUE NO USAS</div>
+                <div class="row d-flex justify-content-center liga">
+                    <a href="#contacto" class="btn btn-warning boton"><i>Empieza aqui</i></a>
+                </div>
+            </div>
+            <div class="slItem compra">
+                <div class="row d-flex justify-content-center titulo">CONSTRUYENDO TU PATRIMONIO FAMILIAR</div>
+                <div class="row d-flex justify-content-center liga">
+                    <a href="#galeria" class="btn btn-warning boton"><i>Ver mas</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id=indicadores class="container-fluid scrollify">
+        <div class="row d-flex justify-content-center">
+            <div class="intro">Conoce lo que hemos logrado gracias a nuestro trabajo y tu apoyo:</div>
+        </div>
+        <div class="row indica">
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">102</div>
+                <div class="row d-flex justify-content-center text">MUEBLES RECUPERADOS</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">76</div>
+                <div class="row d-flex justify-content-center text">FAMILIAS BENEFICIADAS</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">1</div>
+                <div class="row d-flex justify-content-center text">COMUNIDADES</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">60%</div>
+                <div class="row d-flex justify-content-center text">AHORRO</div>
+            </div>
+        </div>
+    </div>
+    <div id=beneficiarios class="container-fluid scrollify">
+        <div class="row coment">
+            <div class="col-sm-12 col-md-4 testimonio">
+                <div class="row d-flex justify-content-center fotos">
+                    <div class="marco1"></div>
+                </div>
+                <div class="row d-flex justify-content-center nombre"><strong>Lorena Rojo</strong></div>
+                <div class="row d-flex justify-content-center opinion"><i>"Se me hace una gran ayuda porque dan barato, en otros lados es más caro y los pagos a plazos me hace dar poquito y sin intereses"</i></div>
+            </div>
+            <div class="col-sm-12 col-md-4 testimonio">
+                <div class="row d-flex justify-content-center fotos">
+                    <div class="marco2"></div>
+                </div>
+                <div class="row d-flex justify-content-center nombre"><strong>Antonio Martinez</strong></div>
+                <div class="row d-flex justify-content-center opinion"><i>"La calidad de las cosas son como nuevas, la forma de pago me gusta porque se adapta a mis recursos. En la manera que genero el dinero. En otros lados tengo que pagar de contado"</i></div>
+            </div>
+            <div class="col-sm-12 col-md-4 testimonio">
+                <div class="row d-flex justify-content-center fotos">
+                    <div class="marco3"></div>
+                </div>
+                <div class="row d-flex justify-content-center nombre"><strong>Trini Martinez</strong></div>
+                <div class="row d-flex justify-content-center opinion"><i>"Me gustan las oportunidades que ofrecen para equipar mi hogar. Y lo mejor es que lo traen a tu casa sin que te cobren el flete"</i></div>
+            </div>
+        </div>
+    </div>
+    <div id=galeria class="container-fluid scrollify"><!--utilice este efecto https://tympanus.net/Tutorials/OriginalHoverEffects/-->
+      <div class="row lienzo"></div>
+      <div class="row piso1">
+        <div class="col-md-4 col-sm-12 nivel"><!--aqui hay un efecto css-->
+            <div class="margen izquierdo1">
+                <div class="view view-first" style="background-image: url(../img/famAntonio-min.JPG)">  
+                    <img src=""/>  
+                    <div class="mask">  
+                        <h2>Fam. Martinez</h2>  
+                        <p><strong>REFRIGERADOR, HORNO</strong></p>
+                        <p>Antonio ahora tiene donde conservar y preparar su alimentos, ahorra dinero y tiene mejores comidas que ofrecer a su hijo.</p>    
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 nivel"><!--aqui hay un efecto css-->
+            <div class="margen centro1">
+                <div class="view view-first" style="background-image: url(../img/famClaudia-min.JPG)">  
+                    <img src=""/>  
+                    <div class="mask">  
+                        <h2>Fam. Gonzalez</h2>  
+                        <p><strong>TRINCHADOR</strong></p>
+                        <p>Con su trinchador, Claudia tiene un lugar seguro para guardar su despensa y evitar que animales e insectos la coman.</p>   
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 nivel"><!--aqui hay un efecto css-->
+            <div class="margen derecho1">
+                <div class="view view-first" style="background-image: url(../img/famRobert-min.JPG)">  
+                    <img src=""/>  
+                    <div class="mask">  
+                        <h2>Fam. Gonzalez</h2>  
+                        <p><strong>LAVADORA</strong></p>  
+                        <p>La señora Maria puede lavar la ropa de su esposo y nietos de la manera mas sencilla, su avanzada edad le impedia hacerlo.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row piso2">
+        <div class="col-md-4 col-sm-12 nivel"><!--aqui hay un efecto css-->
+            <div class="margen izquierdo2">
+                <div class="view view-first" style="background-image: url(../img/famLore-min.JPG)">  
+                    <img src=""/>  
+                    <div class="mask">  
+                        <h2>Fam. Rojo</h2>  
+                        <p><strong>ESTUFA</strong></p>  
+                        <p>Con su estufa nueva, Lorena puede prepar sus alimentos de manera segura, antes las fugas de gas le pegaban en su dinero.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 nivel"><!--aqui hay un efecto css-->
+            <div class="margen centro2">
+                <div class="view view-first" style="background-image: url(../img/famTony-min.JPG)">  
+                    <img src=""/>  
+                    <div class="mask">  
+                        <h2>Fam. Diaz</h2>  
+                        <p><strong>SOFA-CAMA</strong></p>
+                        <p>Los hijos de Antonio tienen otro lugar donde dormir y descansar, antes todos compartian la misma cama.</p>  
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 nivel"><!--aqui hay un efecto css-->
+            <div class="margen derecho2">
+                <div class="view view-first" style="background-image: url(../img/famJapo-min.JPG)">  
+                    <img src=""/>  
+                    <div class="mask">  
+                        <h2>Fam. Zuñiga</h2>  
+                        <p><strong>CAMA MATRIMONIAL</strong></p>  
+                        <p>La familia se muda a su propio hogar y con nosotros tienen una opcion mas cercana de equiparla. Antes compartian casa con otra familia.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id=contacto class="container-fluid scrollify">
+        <div class="row descripcion d-flex justify-content-center">
+            <div class="instruccion"> ¿Tienes algo que ya no usas? Llena el siguiete formulario y nos comunicaremos contigo</div>
+        </div>
+        <div class="row forma">
+            <div class="col-sm-1 col-md-3"></div>
+            <div class="col-sm-10 col-md-6 cajaForma">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">
+                            <div class="encabezado">NOMBRE</div>
+                        </label>
+                        <input type="movil" class="form-control" id="exampleFormControlInput1" placeholder="Danos tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">
+                            <div class="encabezado">TELEFONO MOVIL</div>
+                        </label>
+                        <input type="movil" class="form-control" id="exampleFormControlInput1" placeholder="Danos tu numero de celular">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">
+                            <div class="encabezado">Si tienes fotografias; no dudes en compartirlas</div>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                    
+                    
+                    <button type="submit" class="btn btn-warning boton"><i>Enviar</i></button>
+                </form>
+            </div>
+            <div class="col-sm-1 col-md-3"></div>
+        </div>
+    </div>
+    <div id=footer class="container-fluid scrollify">
+        <div class="row primer d-flex justify-content-center">
+            <div class="head">RECONOCIMIENTOS</div>
+        </div>
+        <div class="row icos d-flex align-items-center">
+            <div class="col-3 d-flex justify-content-center align-items-center incuba">
+                <a href="https://www.facebook.com/incubasocial/" target="_blanck"><img src="../img/incubaSocial.PNG"></a>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center reto">
+                <a href="http://www.retozapopan.com.mx/" target="_blanck"><img src="../img/retoZapopan.png"></a>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center ashoka">
+                <a href="https://www.ashoka.org/es" target="_blanck"><img src="../img/ashoka.png"></a>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center posible">
+                <a href="https://www.posible.org.mx/" target="_blanck"><img src="https://www.posible.org.mx/static/img/logo/logo_blanco.png"></a>
+            </div>
+        </div>
+        <div class="row segundo">
+            <div class="col-6 foIzq">
+                <div class="row grand">AYUDANOS A SEGUIR CRECIENDO</div>
+                <div class="row inf">Contactanos directamente a nuestro correo y siguenos en redes sociales</div>
+            </div>
+            <div class="col-1 d-flex align-items-center foCen">
+                <div class="cajaLinea ">
+                    <img src="../img/divisorFooter.png">
+                </div>
+            </div>
+            <div class="col-5 foDer">
+                <div class="row d-flex justify-content-start mail">
+                    <a href="mailto:cambalache@gmail.com">cambalachegdl@gmail.com</a>
+                </div>
+                <div class="row vinculo">
+                    <a href="https://www.facebook.com/cambalachegdl/" target="_blanck"><img src="../img/logoFb.png"></a>
+                    <a href="https://twitter.com/?lang=es" target="_blanck"><img src="../img/logoTwitter.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center filtro"></div><!--aqui esta el filtro de toda la pagina-->
+
+
+
+    <script>//animacion del scroll
+        $(function() {
+            $.scrollify({
+            section : ".scrollify",
+            });
+        });
+    </script>
+    <script>//animacion del carrusel
+        $(function(){
+            $('#slider').rbtSlider({
+                height: '100vh', 
+                'dots': true, // SIRCULOS
+                'arrows': false, //para las flechas
+                'auto': 7 //esto es de los segundos
+            });
+        });
+    </script>
+    <script>//animacion ocultar menu
+        $(document).ready(function(){
+            $(".comando").click(function(){
+                $(".ocultarMenu").toggle();
+            });
+        });
+    </script>
+   <script type="text/javascript">//animacion preloader
+
+    $("#fakeLoader").fakeLoader({
+    
+    timeToHide:2400, //Time in milliseconds for fakeLoader disappear
+    
+    zIndex:"999",//Default zIndex
+    
+    spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+    
+    bgColor:"#e22d2d", //Hex, RGB or RGBA colors
+
+
+    
+    
+    });
+    
+    </script>
+
+</body>
+</html>

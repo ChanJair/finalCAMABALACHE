@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CAMBALACHE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../24042018/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/estilo2.css" />
+    <link rel="stylesheet" href="../plugin/carrusel/carrusel/example/css/slider.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../plugin/Scrollify/jquery.scrollify.js"></script><!--este es el plugin scrollify-->
+    <script src="../plugin/carrusel/carrusel/slider.min.js"></script> <!--este es el plugin del carrusel-->
+
+ 
+</head>
+<body>
+    <div id=nosotros class="container-fluid scrollify">
+        <div class="row d-flex justify-content-center navbar">
+            <div class="col-xs-12 col-md-2 logo">
+                <a href="#nosotros"><img src="../img/111.png"></a>
+            </div>
+            <div id="ocultar" class="col-xs-12 col-md-10 d-flex justify-content-end">
+                <a href="#nosotros">NOSOTROS</a>
+                <a href="#indicadores">INDICADORES</a>
+                <a href="#beneficiarios">BENEFICIARIOS</a>
+                <a href="#galeria">GALERIA</a>
+                <a href="#contacto">CONTACTO</a>                
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="titulo">HACEMOS FAMILIAS FELICES</div>
+        </div>
+        <div class="row d-flex justify-content-center liga">
+            <a href="https://www.youtube.com/embed/IUrIJMdJJNY?rel=0&amp;showinfo=0" target="_blanck" class="btn btn-warning boton">Conocer mas</a>
+        </div>
+    </div>
+    <div id=indicadores class="container-fluid scrollify">
+        <div class="row d-flex justify-content-center">
+            <div class="intro">Este es el resultado de nuestro trabajo:</div>
+        </div>
+        <div class="row indica">
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">102</div>
+                <div class="row d-flex justify-content-center text">MUEBLES<br>RECUPERADOS</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">76</div>
+                <div class="row d-flex justify-content-center text">FAMILIAS<br>BENEFICIADAS</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">1</div>
+                <div class="row d-flex justify-content-center text">COMUNIDADES</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 impacto">
+                <div class="row d-flex justify-content-center cant">60%</div>
+                <div class="row d-flex justify-content-center text">AHORRO</div>
+            </div>
+        </div>
+    </div>
+    <div id=beneficiarios class="container-fluid scrollify">
+        <div class="row coment">
+            <div class="col-sm-12 col-md-4 testimonio">
+                <div class="row d-flex justify-content-center fotos">
+                    <div class="marco1"></div>
+                </div>
+                <div class="row d-flex justify-content-center nombre">Lorena Rojo</div>
+                <div class="row d-flex justify-content-center opinion"><i>"Se me hace una gran ayuda porque dan barato, en otros lados es más caro y los pagos a plazos me hace dar poquito y sin intereses"</i></div>
+            </div>
+            <div class="col-sm-12 col-md-4 testimonio">
+                <div class="row d-flex justify-content-center fotos">
+                    <div class="marco2"></div>
+                </div>
+                <div class="row d-flex justify-content-center nombre">Antonio Martinez</div>
+                <div class="row d-flex justify-content-center opinion"><i>"La calidad de las cosas son como nuevas, la forma de pago me gusta porque se adapta a mis recursos. En la manera que genero el dinero. En otros lados tengo que pagar de contado"</i></div>
+            </div>
+            <div class="col-sm-12 col-md-4 testimonio">
+                <div class="row d-flex justify-content-center fotos">
+                    <div class="marco3"></div>
+                </div>
+                <div class="row d-flex justify-content-center nombre">Trini Martinez</div>
+                <div class="row d-flex justify-content-center opinion"><i>"Me gustan las oportunidades que ofrecen para equipar mi hogar. Y lo mejor es que lo traen a tu casa sin que te cobren el flete"</i></div>
+            </div>
+        </div>
+    </div>
+    <div id=galeria class="container-fluid scrollify">
+        <div class="row piso">
+            <div class="col-4 izquierdo1"></div>
+            <div class="col-4 centro1"></div>
+            <div class="col-4 derecho1"></div>
+        </div>
+        <div class="row piso">
+            <div class="col-4 izquierdo2"></div>
+            <div class="col-4 centro2"></div>
+            <div class="col-4 derecho2"></div>
+        </div>
+    </div>
+    <div id=contacto class="container-fluid scrollify">CONTACTO</div>
+    <div class="row d-flex justify-content-center filtro"></div>
+
+
+    <script>//animacion del scroll
+        $(function() {
+            $.scrollify({
+            section : ".scrollify",
+            });
+        });
+    </script>
+    <script>//animacion del carrusel
+        $(function(){
+            $('#slider').rbtSlider({
+                height: '100vh', 
+                'dots': true, // SIRCULOS
+                'arrows': true, //para las flechas
+                'auto': 10 //esto es de los segundos
+            });
+        });
+    </script>
+
+
+</body>
+</html>

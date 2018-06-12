@@ -1,0 +1,844 @@
+.scrollify{
+    /*background-color: aqua;*/
+    z-index: 0;
+}
+.filtro{
+    width: 100%;
+    min-height: 600%;
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    z-index: 0;
+}
+/*******NAVBAR*******/
+nav ul{      /*el contenedor de las opciones del menu*/
+    width: 100%;
+    /*background-color: rgba(0, 0, 0, 0.651);*/ /*fondo del menu desplegado*/
+    overflow: hidden; /*este oculta las opciones en celular*/
+    color: white;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: all 1s ease-in-out; /*este baja en cascada las opciones del menu*/
+    position: fixed;
+    z-index: 30;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .8rem;
+  }
+  
+  nav ul li{   /*link's en individual*/
+    display: inline-block;  /*mantiene los links en horizontal*/
+    padding: 40px 20px;
+  }
+  
+  nav ul li a{   /*anclas en individual*/
+    text-decoration: none;  /*quita la apariencia normal de las anclas*/
+    color: inherit;  /*quita el color azul de las anclas*/
+  }
+  
+  
+  nav ul li:hover {  /*fondo de color cuando pones el puntero encima*/
+    background-color: rgba(0, 0, 0, 0.747);
+  }
+       
+  .menu-bars{  /*contenedor de hamburguesa*/
+      width: 100%;   /*ocupa el ancho total de la fila*/
+      /*background-color: #005c48;*/
+      text-align: right;
+      box-shadow: border-box;
+      padding: 20px 0px;
+      cursor: pointer;   /*puntero manita sobre hamburguesa*/
+      color: #fff;
+      display: none;   /*desaparece hamburguesa en laptop*/
+  }
+      
+  .menu-bars .fas{    /*hamburguesa*/
+    margin-right: 20px;
+    font-size: 1.4rem;
+  }
+  
+  .navLogo img{
+    height: 70px;
+    position: fixed;
+    margin: 20px 0 0 40px;
+    z-index: 40;
+  }
+  
+/*******NAVBAR*******/
+
+/*******CARRUSEL*******/
+.slider{
+    z-index: 15;
+}
+.publico{
+    background-image: url(assets/img/carrusel2-min.jpg);
+    padding: 0;
+}
+.venta{
+    background-image: url(assets/img/carrusel1-min.jpg);
+    background-size: cover;
+}
+.compra{
+    background-image: url(assets/img/carrusel3-min.jpg);
+    background-size: cover;
+}
+.titulo{
+    padding: 38vh 15% 2% 15%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    z-index: 15;
+    text-align: center;
+}
+.liga{
+    position: relative;
+    top: 0;
+}
+.boton{
+    z-index: 15;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+}
+/*******CARRUSEL*******/
+
+/*******INDICADORES*******/
+#indicadores{
+    background-image: url(assets/img/DSC_1406-min.JPG);
+    background-size: cover;
+}
+.intro{
+    padding: 30vh 150px 0 150px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    z-index: 15;
+    text-align: center;
+    line-height: 2rem;
+}
+.indica{
+    padding: 2vh 100px 0 100px;
+}
+.impacto{
+    z-index: 15;
+}
+.cant{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7rem;
+    color: rgb(255, 230, 0);
+    display: block;
+    height: 190px;
+}
+.text{
+    color: white;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+/*******INDICADORES*******/
+
+/*******BENEFICIARIOS*******/
+#beneficiarios{
+    background-image: url(assets/img/fondoVivienda-min.jpg);
+    background-size: cover;
+}
+.coment{
+    padding: 30vh 130px 0 125px;
+}
+.testimonio{
+    z-index: 15;
+}
+.marco1, .marco2, .marco3{
+    background-color: white;
+    border-radius: 90px;
+    height: 180px;
+    width: 180px;
+}
+.marco1{
+    background-image: url(assets/img/IMG_0945-min.JPG);
+    background-size: cover;
+}
+.marco2{
+    background-image: url(assets/img/IMG_0946-min.JPG);
+    background-size: cover;
+}
+.marco3{
+    background-image: url(assets/img/IMG_0947-min.JPG);
+    background-size: cover;
+}
+.nombre{
+    color: rgb(255, 230, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 1vh 0 0 0;
+    text-align: center;
+}
+.opinion{
+    color: white;
+    padding: 2% 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+/*******BENEFICIARIOS*******/
+
+/*******GALERIA*******/
+#galeria{
+    background-image: url(assets/img/fondoGaleria-min.JPG);
+    background-size: cover;
+}
+.lienzo{
+    height: 16%;
+}
+.piso1{
+    height: 42%;
+    padding: 0 100px 0 100px;
+}
+.piso2{
+    height: 42%;
+    padding: 0 100px 0 100px;
+}
+.nivel{
+    z-index: 15;   
+}
+.margen{
+    margin: 10px;
+    height: 90%;
+}
+.izquierdo1{
+    /*background-image: url(../img/famAntonio.JPG);*/
+    background-size: cover;
+    z-index: 15;
+}
+.centro1{
+    /*background-image: url(../img/famClaudia.JPG);*/
+    background-size: cover;
+    z-index: 15;
+}
+.derecho1{
+    /*background-image: url(../img/famRobert.JPG);*/
+    background-size: cover;
+    z-index: 15;
+}
+.izquierdo2{
+    /*background-image: url(../img/famLore.JPG);*/
+    background-size: cover;
+    z-index: 15;
+}
+.centro2{
+    /*background-image: url(../img/famTony.JPG);*/
+    background-size: cover;
+    z-index: 15;
+}
+.derecho2{
+    /*background-image: url(../img/famJapo.JPG);*/
+    background-size: cover;
+    z-index: 15;
+}
+/*******efecto galeria*******/
+.view {
+    width: 100%;
+    height: 100%;
+    /*margin: 10px;*/
+    float: left;
+    /*border: 10px solid #fff;*/
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /*box-shadow: 1px 1px 2px #e6e6e6;*/
+    cursor: default;
+   /* background: #fff url(../img/famAntonio.JPG) no-repeat center center;*/
+    background-size: cover;
+}
+.view .mask, .view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative;
+    
+}
+.view h2 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 28px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+.view p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(184, 172, 10, 0.603); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+	transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+	transition: all 0.2s ease-in-out;
+}
+.view-first:hover img { 
+	transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+	opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+/*******efecto galeria*******/
+
+/*******GALERIA*******/
+
+/*******CONTACTO*******/
+#contacto{
+    background-image: url(assets/img/donador2-min.JPG);
+    background-size: cover;
+}
+.descripcion{
+    padding: 180px 300px 0 300px;
+    
+}
+.instruccion{
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    z-index: 15;
+    line-height: 2rem;
+}
+.forma{
+    padding: 2% 0 0 0;
+}
+.cajaForma{
+    z-index: 15;
+}
+.encabezado{
+    color: white;
+    z-index: 15;
+    
+}
+.encabezado{
+    font-size: 1.5rem;        
+}
+.form-control{
+    font-size: 1.1rem;
+}
+.form-control-file{
+    font-size: 1.1rem;
+}
+/*******CONTACTO*******/
+
+
+/*******FOOTER*******/
+#footer{
+    background-image: url(assets/img/edificios-min.JPG);
+    background-size: cover;
+}
+.primer{
+    height: 25%;
+    padding: 130px 0 0 0;
+}
+.icos{
+    height: 45%;
+    padding: 0 100px 0 100px;
+}
+.incuba img{
+    height: 210px;
+}
+.reto img, .ashoka img, .posible img{
+    width: 210px;
+    
+}
+.icos a{
+    padding: auto 0 auto 0;
+    z-index: 15;
+}
+.segundo{
+    height: 30%;
+    background-color: black;
+    padding: 0 50px 0 50px;
+}
+.head{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 230, 0);
+    z-index: 15;
+}
+.foIzq{
+    z-index: 15;
+}
+.grand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    margin: 100px 20px 0 0;
+    /*border-right-style: solid;
+    border-color: white;
+    border-width: 5px;*/
+    
+}
+.inf{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0 30px 0 15px;
+}
+.vinculo img{
+    height: 40px;
+}
+.foDer{
+    z-index: 15;
+}
+.mail{
+    padding: 80px 0 0 0;
+}
+.correo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+}
+.foCen{
+    z-index: 15;
+}
+.cajaLinea img{
+    height: 100px;;
+}
+.mail a{
+    font-size: 1.7rem;
+    color: white;
+}
+/*******FOOTER*******/
+
+
+
+@media screen and (max-width: 768px){
+    /**********NAVBAR*************/
+    nav ul{       /*el contenedor de las opciones del menu*/
+      max-height: 0px;
+      position: fixed;
+      top: 2em;
+      font-size: .7rem;
+    }
+            
+    nav ul li{
+      box-sizing: border-box;
+      width: 100%;    /*permite mantener vertical lista de links*/
+      padding: 10px;
+      text-align: right;
+    }
+            
+    .menu-bars{     /*contenedor de hamburguesa*/
+      display: block;
+      position: fixed;
+      top: 0;
+      z-index: 30;
+    }
+    .navLogo img{
+      height: 40px;
+      position: fixed;
+      margin: 20px 0 0 20px;
+      z-index: 40;
+    }
+            
+    .showing{
+      max-height: 20em;
+      position: fixed;
+      top: 4.5em;
+    }
+    /**********NAVBAR*************/
+    
+    /**********SLIDER*************/    
+    .titulo{
+        padding: 30vh 15% 2% 15%;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .boton{
+        font-size: .5rem;
+    }
+    /**********SLIDER*************/    
+
+    /**********INDICADORES*************/    
+    .intro{
+        padding: 20vh 40px 0 40px;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    .cant{
+        font-size: 4rem;
+        display: block;
+        height: 95px;
+    }
+    .text{
+        display: block;
+        font-size: .8rem;
+    }
+    /**********INDICADORES*************/    
+
+    /**********BENEFICIARIOS*************/    
+    .coment{
+        padding: 17vh 40px 0 40px;
+    }
+    .marco1, .marco2, .marco3{
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
+    .nombre{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding: 2vh 0 0 0;
+    }
+    .opinion{
+        padding: 0 0 10px 0;
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    /**********BENEFICIARIOS*************/    
+
+    /**********GALERIA*************/    
+    .lienzo{
+        height: 17vh;
+    }
+    .piso1{
+        height: 650px;
+        padding: 0 55px 0 55px;
+    }
+    .piso2{
+        display: none;
+    }
+    .margen{
+        height: 100%;
+    }
+    .view h2 {
+        font-size: 17px;
+        padding: 8px;
+        margin: 20px 0 0 0;
+    }
+    .view p {
+        font-style: italic;
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+    /**********GALERIA*************/ 
+    
+    /**********CONTACTO*************/    
+    .descripcion{
+        padding: 240px 40px 10px 40px;
+        
+    }
+    .instruccion{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .encabezado{
+        font-size: .7rem;        
+    }
+    .form-control{
+        font-size: .6rem;
+    }
+    .form-control-file{
+        font-size: .6rem;
+    }
+    .forma{
+        padding: 2% 40px 0 40px;
+    }
+    /**********CONTACTO*************/    
+
+    /**********FOOTER*************/    
+    .icos{
+        padding: 0;
+    }
+    .incuba, .reto, .ashoka, .posible{
+        height: 80px;
+    }
+    .incuba img{
+        height: 110px;
+        padding: auto 0;
+    }
+    .reto img, .ashoka img, .posible img{
+        width: 110px;
+        padding: auto 0;
+        
+    }
+    .head{
+        font-size: 2rem;
+    
+    }
+    .primer{
+        padding: 20vh 0 0 0;
+    }
+    .grand{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin: 70px 0 0 0;   
+    }
+    .inf{
+        display: none;
+    }
+    .segundo{
+        padding: 0 5px 0 5px;
+    }
+    .cajaLinea{
+        display: none;
+    }
+    .vinculo{
+        display: none;
+    }
+    .mail a{
+        font-size: .9rem;
+    }
+    .mail{
+        padding: 9vh 0 0 0;
+    }
+}
+/**********FOOTER*************/    
+
+
+@media screen and (max-width: 992px){
+    /**********NAVBAR*************/
+    nav ul{       /*el contenedor de las opciones del menu*/
+      max-height: 0px;
+      position: fixed;
+      top: 2em;
+      font-size: .7rem;
+    }
+            
+    nav ul li{
+      box-sizing: border-box;
+      width: 100%;    /*permite mantener vertical lista de links*/
+      padding: 10px;
+      text-align: right;
+    }
+            
+    .menu-bars{     /*contenedor de hamburguesa*/
+      display: block;
+      position: fixed;
+      top: 0;
+      z-index: 30;
+    }
+    .navLogo img{
+      height: 40px;
+      position: fixed;
+      margin: 20px 0 0 20px;
+      z-index: 40;
+    }
+            
+    .showing{
+      max-height: 20em;
+      position: fixed;
+      top: 4.5em;
+    }
+    /**********NAVBAR*************/
+    
+    /**********SLIDER*************/    
+    .titulo{
+        padding: 30vh 15% 2% 15%;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .boton{
+        font-size: .5rem;
+    }
+    /**********SLIDER*************/    
+
+    /**********INDICADORES*************/    
+    .intro{
+        padding: 20vh 40px 0 40px;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    .cant{
+        font-size: 4rem;
+        display: block;
+        height: 95px;
+    }
+    .text{
+        display: block;
+        font-size: .8rem;
+    }
+    /**********INDICADORES*************/    
+
+    /**********BENEFICIARIOS*************/    
+    .coment{
+        padding: 17vh 40px 0 40px;
+    }
+    .marco1, .marco2, .marco3{
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
+    .nombre{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        padding: 2vh 0 0 0;
+    }
+    .opinion{
+        padding: 0 0 10px 0;
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    /**********BENEFICIARIOS*************/    
+
+    /**********GALERIA*************/    
+    .lienzo{
+        height: 17vh;
+    }
+    .piso1{
+        height: 650px;
+        padding: 0 55px 0 55px;
+    }
+    .piso2{
+        display: none;
+    }
+    .margen{
+        height: 100%;
+    }
+    .view h2 {
+        font-size: 17px;
+        padding: 8px;
+        margin: 20px 0 0 0;
+    }
+    .view p {
+        font-style: italic;
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+    /**********GALERIA*************/ 
+    
+    /**********CONTACTO*************/    
+    .descripcion{
+        padding: 240px 40px 10px 40px;
+        
+    }
+    .instruccion{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .encabezado{
+        font-size: .7rem;        
+    }
+    .form-control{
+        font-size: .6rem;
+    }
+    .form-control-file{
+        font-size: .6rem;
+    }
+    .forma{
+        padding: 2% 40px 0 40px;
+    }
+    /**********CONTACTO*************/    
+
+    /**********FOOTER*************/    
+    .icos{
+        padding: 0;
+    }
+    .incuba, .reto, .ashoka, .posible{
+        height: 80px;
+    }
+    .incuba img{
+        height: 110px;
+        padding: auto 0;
+    }
+    .reto img, .ashoka img, .posible img{
+        width: 110px;
+        padding: auto 0;
+        
+    }
+    .head{
+        font-size: 2rem;
+    
+    }
+    .primer{
+        padding: 20vh 0 0 0;
+    }
+    .grand{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin: 70px 0 0 0;   
+    }
+    .inf{
+        display: none;
+    }
+    .segundo{
+        padding: 0 5px 0 5px;
+    }
+    .cajaLinea{
+        display: none;
+    }
+    .vinculo{
+        display: none;
+    }
+    .mail a{
+        font-size: .9rem;
+    }
+    .mail{
+        padding: 9vh 0 0 0;
+    }
+}
+/**********FOOTER*************/    
+
+
+
+
+
+
